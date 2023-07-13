@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Ubuntu" ;
+	font-weight: "Light 300";
+}
+body{
+    background-color: #dddddd;
+}
+
+.container {
+   margin:0 auto; /* this will center the page */
+   width:95%; /*  use your width here */
+}
+
+header{
+  display: flex;
+  background-color: skyblue;
+  justify-content: space-between;
+  align-items: center;
+  height:auto;
+  width:100%;
+  padding: 5px 10%; 
+  
+} 
+
+header  .logo  img:hover{
+transform: scale(1.2);
+  height:70px
+  width: auto;
+	
+}
+
+.navbar-links li{
+  list-style:none;
+  display:inline-block;
+  padding: 0 20px;
+  font-size:700;
+}
+
+.navbar-links li a{
+  background-color: white;
+  border-radius: 7px;
+}
+
+.navbar-links li:hover a:hover{
+  transform:scale(1.2);
+  color:white;
+  background-color:blue;
+}
+
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: solid;
+  text-decoration: underline;
+  font-size: x-large;
+  padding-top: 10px;
+}
+
+
+p {
+  text-align: justify;
+  
+}
+
+.row{
+	text-transform:initial;
+  text-align: center;
+
+}
+
+#roadmap{
+
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+width:80%
+}

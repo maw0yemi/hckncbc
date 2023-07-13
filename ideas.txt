@@ -1,0 +1,8 @@
+project page: display pannnel on hover to go to networking projects or ethical hacking projects
+
+in my jorney refere to projects setion to veiw projects
+
+how to check on other browser
+
+add active page to navbar 
+
