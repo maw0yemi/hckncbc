@@ -66,6 +66,11 @@ transform: scale(1.2);
 
 }
 
+.title{
+	text-align:center;
+	text-decoration:underline;
+}
+
 .container p{
   text-align: justify;
   
