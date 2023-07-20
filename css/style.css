@@ -13,7 +13,7 @@ body{
 
 .container {
    margin:0 auto; /* this will center the page */
-   width:95%; /*  use your width here */
+   width:90%; /*  use your width here */
 }
 
 header{
@@ -52,18 +52,21 @@ transform: scale(1.2);
   background-color:blue;
 }
 
-
-.title {
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: solid;
-  text-decoration: underline;
-  font-size: x-large;
-  padding-top: 10px;
+.navbar-links li.active a.active{
+	color:white;
+  background-color:blue;
 }
 
 
-p {
+
+.navbar-links .procjets_button:hover{
+  transform:scale(1.2);
+  color:white;
+  background-color:blue;
+
+}
+
+.container p{
   text-align: justify;
   
 }
@@ -81,3 +84,4 @@ p {
   margin-right: auto;
 width:80%
 }
+
